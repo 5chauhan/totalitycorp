@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# totality-corp-assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tech Stack Used: ReactJs, Javascript, Tailwind CSS
+Deployed On: Netlify
 
-## Available Scripts
+Setup Instructions:
+1. Clone the project on your PC.
+2. Inside project's root directory run: npm install
+3. Type this command to start the project on your machine: npm start
 
-In the project directory, you can run:
+You can also checkout this project hosted here: https://totality-corp-abhishek.netlify.app/
 
-### `npm start`
+-------------------Approch-------------------
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Folder Structure:
+1. The website is divided into sections.
+2. Each Section is given a unique name, which in turn is a unique React Component.
+3. There are total 8 sections and are contained in sections directory.
+4. To take advantage of the React library, some components which mostly include cards are also created inside components directory.
+5. To avoid writing same code repeatedly the tet which are of same formats iniside a sections are included in json format inside json files directory.
+6. All the images and picture are included section-wise inside assets directory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step wise build up:
+1. First Json files are created for those contents which repeat in same manner --- <json_files>
+2. All the pictures, icons and images are downloaded section-wise and kept together  --- <assets>
+3. Tailwind CSS integrated to the project.
+4. The entire UI is divided into sections --- <sections>
+5. Components created to assist the sections --- <components>
+6. One section was completed at a time and components were created as per requirement for the section which was being coded.
+7. Firstly the static of every section was completed.
+8. Then some dynamic taks like - FAQ collapse or horizontal scroll were completed.
+9. Background designing was done at the last, in which some floating obejcts were placed in the background.
+10. The UI was screened to check for possible errors.
+11. The final changes were pushed.
+  
+Commits - The commits to this repo are in the following 2 formats:
+1. For a section:
+  
+    < Section No - Section Name - sub task(optional) - status >
+      
+2. If the task is not on particular section
+      
+    < commit message >
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
