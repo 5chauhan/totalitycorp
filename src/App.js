@@ -38,42 +38,42 @@ function App() {
             top: 1021,
             right: 0,
           }}
-          src={Asset1}
+          src={Asset1} alt =""
         />
         <img
           className="absolute"
           style={{
-            top: 800,
+            top: 900,
             left: 0,
           }}
-          src={Asset6}
+          src={Asset6} alt =""
         />
         <CreateSellNFT />
         <img
           className="absolute"
           style={{
-            top: 1858,
+            top: 1900,
             left: 0,
           }}
-          src={Asset2}
+          src={Asset2} alt =""
         />
         <img
           className="absolute"
           style={{
-            top: 2000,
+            top: 2500,
             right: 0,
           }}
-          src={Asset3}
+          src={Asset3} alt =""
         />
         <NotableDrops />
         <Banner />
         <img
           className="absolute"
           style={{
-            top: 3000,
+            top: 3500,
             left: 0,
           }}
-          src={Asset4}
+          src={Asset4} alt =""
         />
         <img
           className="absolute"
@@ -81,7 +81,7 @@ function App() {
             top: 3447,
             right: 0,
           }}
-          src={Asset5}
+          src={Asset5} alt =""
         />
         <TrendingCategories />
         <img
@@ -90,7 +90,7 @@ function App() {
             top: 3856,
             left: 0,
           }}
-          src={Asset5}
+          src={Asset5} alt =""
         />
         <ExploreCategories />
         <img
@@ -99,7 +99,7 @@ function App() {
             top: 4600,
             left: 250,
           }}
-          src={Asset5}
+          src={Asset5} alt =""
         />
         <FAQ />
         <img
@@ -108,7 +108,7 @@ function App() {
             top: 5250,
             left: 200,
           }}
-          src={Asset5}
+          src={Asset5} alt =""
         />
         <img
           className="absolute"
@@ -116,7 +116,7 @@ function App() {
             top: 5200,
             right: 0,
           }}
-          src={Asset1}
+          src={Asset1} alt =""
         />
         <Resources />
         <img
@@ -125,7 +125,7 @@ function App() {
             top: 5650,
             left: 0,
           }}
-          src={Asset6}
+          src={Asset6} alt =""
         />
         <img
           className="absolute"
@@ -133,7 +133,7 @@ function App() {
             top: 6000,
             right: 0,
           }}
-          src={Asset5}
+          src={Asset5} alt =""
         />
         <Footer />
       </div>
